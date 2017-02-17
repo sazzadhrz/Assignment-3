@@ -1,0 +1,144 @@
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.div1{
+	/*border: 2px solid red;*/
+	height: 100vh;
+	width: 100%;
+	position: relative;
+	background: url(img/background-15.jpg);
+	background-size: cover;
+}
+
+.overlay{
+	height: 100vh;
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+	transition: 2s;
+}
+
+.overlay:hover{
+	background: rgba(0,0,0,0.65);
+}
+
+.div1 h1{
+	position: absolute;
+	top: 38%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 47px;
+}
+.div1 p {
+	position: absolute;
+	top: 53%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 16.5px;
+	text-align: center;
+	font-family: Arial;
+	line-height: 20px;
+}
+
+.div1 button{
+	position: absolute;
+	top: 67%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 30px;
+	width: 85px;
+	color: white;
+	background-color: #0C2334;
+	border: 1px solid #5E7A78; 
+	border-radius: 2px;
+	font-size: 15px;
+	transition: all 1.7s;
+}
+
+.div1 button:hover{
+	background-color: #3B4C60;
+	color: orange;
+	border: 1px solid #C5C5C5;
+	border-radius: 2px;
+}
+
+.div2{
+	/*border: 2px solid red;*/
+	height: 500px;
+	width: auto;
+	background-color: #F2F2F2;
+	position: relative;
+}
+
+.secondary{
+	/*border: 2px solid green;*/
+	height: auto;
+	width: 95%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.d2{
+	display: inline-block;
+	border: 1px solid #999999;
+	height: 460px;
+	width: 350px;
+	margin: 20px;
+	margin: 0 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 1px;
+	transition: all 1s;
+}
+
+.d2:hover{
+	transform: scale(1.05);
+}
+
+#d21{
+	margin-left: 43px;
+}
+
+.d2 img{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 200px;
+	width: auto;
+	transition: all 2s;
+}
+
+.d2 img:hover{
+	transform: rotate(180deg);
+	top: 8.5%;
+	left: 22.2%;
+}
+
+.d2 p{
+	position: absolute;
+	top: 69%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 285px;
+	font-size: 17px;
+	font-family: cursive;
+	text-align: center;
+}
+
+.d2 p:hover{
+	font-size: 18px;
+}
+
+.overlay1{
+	height: 500px;
+	width: auto;
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
