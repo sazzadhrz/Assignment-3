@@ -133,7 +133,9 @@ body{
 }
 
 .d2 p:hover{
-	font-size: 18px;
+	transform: scale(1.1);
+	top: 58%;
+	left: 10%;
 }
 
 .overlay1{
